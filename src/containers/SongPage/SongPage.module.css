@@ -1,0 +1,38 @@
+.root {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100%;
+  padding: 2rem;
+}
+
+.videoSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.videoSection > div:first-child {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.icons {
+  display: flex;
+  place-content: flex-end;
+}
+
+.icons button:not(:last-child) {
+  margin-right: 1rem;
+}
+.icons button {
+  font-size: 2.5rem;
+  padding: 1rem;
+  background-color: #eee;
+  border: none;
+  color: #2d2d2d;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.icons button :not(:last-child) {
+  margin-right: 1rem;
+}

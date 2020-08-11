@@ -1,0 +1,42 @@
+.root {
+  height: 25rem;
+  display: flex;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.root.sm {
+  height: 15rem;
+}
+
+.root:hover {
+  background-color: #eeeeee;
+}
+
+.root img {
+  height: 100%;
+  width: 35rem;
+  object-fit: cover;
+}
+
+.root.sm img {
+  width: 20rem;
+}
+
+.root :not(:last-child) {
+  margin-right: 2rem;
+}
+
+.root h1,
+.root p {
+  color: black;
+}
+
+.root.sm h1 {
+  font-size: 1.4rem;
+}
+
+.root.sm p {
+  font-size: 1rem;
+}

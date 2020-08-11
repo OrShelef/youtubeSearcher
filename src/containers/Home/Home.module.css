@@ -1,0 +1,32 @@
+.root {
+  height: 100%;
+}
+
+.root > nav {
+  padding: 2rem;
+  background-color: var(--primary);
+}
+
+.container {
+  display: flex;
+  padding: 2rem 4rem;
+  flex-direction: column;
+}
+
+.filter_button {
+  width: fit-content;
+  margin-top: 3rem;
+  font-size: 4rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.filter_button :not(:last-child) {
+  margin-right: 1rem;
+}
+
+.container hr {
+  opacity: 0.6;
+  background: #eee;
+}
